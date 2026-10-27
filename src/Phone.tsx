@@ -501,6 +501,31 @@ function PhoneRuntime({
                   onRead={(id) => event("read", id)}
                   onEdit={(item) => onEdit?.(app, item)}
                   onAdd={() => onAdd?.(app)}
+                  onSend={(body, thread) => {
+                    const current = runtimeRef.current;
+                    const message: Item = {
+                      id: `user-message-${Date.now()}-${Math.random().toString(36).slice(2, 8)}`,
+                      title: thread,
+                      body,
+                      richText: "",
+                      meta: {},
+                      time: displayTime,
+                      sender: work.phone.owner,
+                      avatar: "",
+                      kind: "text",
+                      media: "",
+                      hidden: false,
+                      unlock: "",
+                      password: "",
+                      folder: "",
+                      favorite: false,
+                      outgoing: true,
+                      read: true,
+                      likes: 0,
+                      comments: [],
+                    };
+                    update({ ...current, messages: { ...current.messages, [app]: [...(current.messages[app] ?? []), message] } });
+                  }}
                   onBack={() => setApp("")}
                   onSettings={onSettings}
                   onUi={(key, value) => {
@@ -909,6 +934,7 @@ function AppContent({
   onRead,
   onEdit,
   onAdd,
+  onSend,
   onBack,
   onSettings,
   onUi,
@@ -922,6 +948,7 @@ function AppContent({
   onRead: (id: string) => void;
   onEdit: (item: Item) => void;
   onAdd: () => void;
+  onSend: (body: string, thread: string) => void;
   onBack: () => void;
   onSettings?: () => void;
   onUi?: (key: string, value: UiValue) => void;
@@ -1043,6 +1070,7 @@ function AppContent({
               onRead={onRead}
               onItem={read}
               onAdd={onAdd}
+              onSend={onSend}
               onBack={onBack}
               thread={thread}
               onThread={setThread}
