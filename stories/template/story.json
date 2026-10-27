@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 10,
+  "revision": 11,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -140,40 +140,32 @@
           "id": "wechat-maeda-wushiwens-contact-01",
           "title": "",
           "body": "陆，你们交换生中，是还有一名男生吗，今天的讲座上我怎么看到一个陌生的同学坐在我们班的分区",
-          "time": "18:50",
+          "time": "2026.9.30 18:50",
           "senderId": "owner",
           "kind": "text"
         },
         {
           "id": "wechat-maeda-wushiwens-contact-02",
           "title": "",
-          "body": "他叫吴是温，比我们晚半个月到校。",
-          "time": "18:52",
+          "body": "哦对的，这名交换生叫吴是温，他因为自身原因比我们晚了半个月来交换，今天应该是他来学校的第一天。",
+          "time": "2026.9.30 18:50",
           "senderId": "maeda-riku",
           "kind": "text"
         },
         {
           "id": "wechat-maeda-wushiwens-contact-03",
           "title": "",
-          "body": "13677755433",
-          "time": "18:52",
-          "senderId": "maeda-riku",
+          "body": "原来是这样",
+          "time": "2026.9.30 18:50",
+          "senderId": "owner",
           "kind": "text"
         },
         {
           "id": "wechat-maeda-wushiwens-contact-04",
           "title": "",
-          "body": "他今天帮了我个小忙",
-          "time": "19:00",
+          "body": "你有他的联系方式吗",
+          "time": "2026.9.30 18:50",
           "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-maeda-wushiwens-contact-05",
-          "title": "",
-          "body": "哦^^",
-          "time": "19:00",
-          "senderId": "maeda-riku",
           "kind": "text"
         }
       ]
