@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 9,
+  "revision": 10,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -139,7 +139,7 @@
         {
           "id": "wechat-maeda-wushiwens-contact-01",
           "title": "",
-          "body": "（询问学校里一位陌生交换生的情况；原始逐字消息未能从现有记录中找回）",
+          "body": "陆，你们交换生中，是还有一名男生吗，今天的讲座上我怎么看到一个陌生的同学坐在我们班的分区",
           "time": "18:50",
           "senderId": "owner",
           "kind": "text"
