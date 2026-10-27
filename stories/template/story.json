@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 8,
+  "revision": 9,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -179,6 +179,57 @@
       ]
     },
     {
+      "id": "wechat-wushiwens-first-chat",
+      "app": "wechat",
+      "title": "吴是温",
+      "participants": [
+        "owner",
+        "wushiwens"
+      ],
+      "messages": [
+        {
+          "id": "wechat-wushi-first-01",
+          "title": "",
+          "body": "吴同学，谢谢你呀，帮我从座位下捡笔。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-02",
+          "title": "",
+          "body": "没事的呀，很高兴帮助到你。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-03",
+          "title": "",
+          "body": "不好意思，我是韩国交换生，中文可能不大好，请见谅。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-04",
+          "title": "",
+          "body": "没关系的！你的中文水平挺好的。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-05",
+          "title": "",
+          "body": "谢谢。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        }
+      ]
+    },
+    {
       "id": "wechat-wushiwens-holiday",
       "app": "wechat",
       "title": "吴是温",
@@ -257,57 +308,6 @@
           "body": "OK(๑•̀ω•́๑)✧",
           "time": "21:13",
           "senderId": "owner",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "wechat-wushiwens-first-chat",
-      "app": "wechat",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "wechat-wushi-first-01",
-          "title": "",
-          "body": "吴同学，谢谢你呀，帮我从座位下捡笔。",
-          "time": "2026.9.30 20:34",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushi-first-02",
-          "title": "",
-          "body": "没事的呀，很高兴帮助到你。",
-          "time": "2026.9.30 20:34",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushi-first-03",
-          "title": "",
-          "body": "不好意思，我是韩国交换生，中文可能不大好，请见谅。",
-          "time": "2026.9.30 20:34",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushi-first-04",
-          "title": "",
-          "body": "没关系的！你的中文水平挺好的。",
-          "time": "2026.9.30 20:34",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushi-first-05",
-          "title": "",
-          "body": "谢谢。",
-          "time": "2026.9.30 20:34",
-          "senderId": "wushiwens",
           "kind": "text"
         }
       ]
