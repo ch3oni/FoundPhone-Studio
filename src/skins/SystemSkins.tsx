@@ -18,6 +18,9 @@ import {
   LockKeyhole,
   MapPin,
   Music,
+  Mic,
+  Square,
+  Trash2,
   Phone,
   Search,
   SkipForward,
@@ -25,7 +28,7 @@ import {
   Users,
   Wallet,
 } from "lucide-react";
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { download } from "../io";
 import { safeMedia, type Item } from "../schema";
 import {
@@ -721,6 +724,77 @@ export function FilesSkin(p: Props) {
         }}
         icons={[<Clock />, <Folder />]}
       />
+    </div>
+  );
+}
+export function VoiceMemosSkin(p: Props) {
+  const [recordings, setRecordings] = useSkinState<string[]>(p, "voiceMemoRecordings", []);
+  const [recording, setRecording] = useState(false);
+  const [error, setError] = useState("");
+  const recorder = useRef<MediaRecorder | null>(null);
+  const chunks = useRef<Blob[]>([]);
+  const start = async () => {
+    setError("");
+    try {
+      if (!navigator.mediaDevices?.getUserMedia || typeof MediaRecorder === "undefined") {
+        setError("当前浏览器不支持录音，请使用较新的浏览器。");
+        return;
+      }
+      const stream = await navigator.mediaDevices.getUserMedia({ audio: true });
+      const instance = new MediaRecorder(stream);
+      recorder.current = instance;
+      chunks.current = [];
+      instance.ondataavailable = (event) => { if (event.data.size) chunks.current.push(event.data); };
+      instance.onstop = () => {
+        const blob = new Blob(chunks.current, { type: "audio/webm" });
+        const reader = new FileReader();
+        reader.onloadend = () => {
+          const raw = String(reader.result || "");
+          const encoded = raw.includes(",") ? raw.slice(raw.indexOf(",") + 1) : "";
+          if (encoded) {
+            const entry = JSON.stringify({ id: `recording-${Date.now()}`, title: `录音 ${recordings.length + 1}`, time: p.virtualTime || "现在", media: `data:audio/webm;base64,${encoded}` });
+            setRecordings([...recordings, entry]);
+          }
+          stream.getTracks().forEach((track) => track.stop());
+        };
+        reader.readAsDataURL(blob);
+      };
+      instance.start();
+      setRecording(true);
+    } catch {
+      setError("无法使用麦克风。请允许浏览器访问麦克风后重试。");
+    }
+  };
+  const stop = () => {
+    if (recorder.current?.state === "recording") recorder.current.stop();
+    setRecording(false);
+  };
+  const parsed = recordings.flatMap((raw) => {
+    try {
+      const value = JSON.parse(raw) as { id: string; title: string; time: string; media: string };
+      return value && typeof value.media === "string" && safeMedia(value.media) ? [value] : [];
+    } catch { return []; }
+  });
+  return (
+    <div className="catalog-skin native-music">
+      <Header p={p} />
+      <div className="catalog-scroll">
+        <h1>语音备忘录</h1>
+        <p>录制的音频保存在当前手机的本地进度中。</p>
+        <button className="phone-add" onClick={recording ? stop : () => void start()}>
+          {recording ? <Square size={18} /> : <Mic size={18} />}
+          {recording ? "停止录音并保存" : "开始录音"}
+        </button>
+        {error && <p role="alert">{error}</p>}
+        {parsed.map((item) => (
+          <article className="record-row" key={item.id}>
+            <div className="record-symbol"><Mic size={20} /></div>
+            <div><strong>{item.title}</strong><small>{item.time}</small><audio controls preload="metadata" src={item.media} /></div>
+            <button aria-label={`删除${item.title}`} onClick={() => setRecordings(recordings.filter((raw) => { try { return JSON.parse(raw).id !== item.id; } catch { return true; } }))}><Trash2 size={16} /></button>
+          </article>
+        ))}
+        {!parsed.length && <p className="skin-empty">还没有录音。点击「开始录音」即可录制。</p>}
+      </div>
     </div>
   );
 }
