@@ -420,7 +420,8 @@
       "next": [
         "china-ending",
         "korea-ending"
-      ]
+      ],
+      "type": "choice"
     },
     {
       "id": "china-ending",
