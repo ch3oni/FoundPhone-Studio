@@ -154,7 +154,7 @@ function Compose({
     setDraft("");
   };
   return (
-    <form className={`skin-compose ${wa ? "wa-compose" : ""}`} onSubmit={(e) => { e.preventDefault(); creator ? onAdd() : submit(); }}>
+    <form className={`skin-compose ${wa ? "wa-compose" : ""}`} onSubmit={(e) => { e.preventDefault(); if (creator) onAdd(); else submit(); }}>
       {wa ? <Plus size={20} /> : <Mic size={20} />}
       {creator ? <NativeComposer creator onAdd={onAdd} /> : <input aria-label="输入消息" placeholder="发送消息" value={draft} onChange={(e) => setDraft(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); submit(); } }} />}
       {draft.trim() && !creator ? <button type="submit" aria-label="发送消息"><Send size={19} /></button> : <Smile size={21} />}
