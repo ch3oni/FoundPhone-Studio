@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 4,
+  "revision": 6,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -37,7 +37,8 @@
     "safari",
     "settings",
     "youtube",
-    "spotify"
+    "spotify",
+    "voicememos"
   ],
   "contacts": [
     {
