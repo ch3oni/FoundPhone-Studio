@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 5,
+  "revision": 4,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -343,456 +343,6 @@
           "kind": "text"
         }
       ]
-    },
-    {
-      "id": "kakao-campus-walk",
-      "app": "kakao",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "kakao-campus-walk-01",
-          "title": "",
-          "body": "你不是说对学校附近不熟吗？想先去哪里？",
-          "time": "14:02",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-02",
-          "title": "",
-          "body": "你决定就好。今天的导游是你。",
-          "time": "14:03",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-03",
-          "title": "",
-          "body": "那先带你去操场，那里傍晚很好看。",
-          "time": "14:03",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-04",
-          "title": "",
-          "body": "你每天放学都会去那里？",
-          "time": "14:08",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-05",
-          "title": "",
-          "body": "也不是每天。今天算特别安排。",
-          "time": "14:08",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-06",
-          "title": "",
-          "body": "知道了。那我会记住今天。",
-          "time": "14:09",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-07",
-          "title": "",
-          "body": "只是逛个校园而已，有必要记住吗？",
-          "time": "14:10",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-campus-walk-08",
-          "title": "",
-          "body": "和谁一起逛，还是有区别的。",
-          "time": "14:10",
-          "senderId": "wushiwens",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "kakao-vending-machine",
-      "app": "kakao",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "kakao-vending-machine-01",
-          "title": "",
-          "body": "你上次说喜欢的饮料，是这个吗？",
-          "time": "17:01",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-02",
-          "title": "",
-          "body": "你怎么还记得？",
-          "time": "17:02",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-03",
-          "title": "",
-          "body": "你说过一次。",
-          "time": "17:02",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-04",
-          "title": "",
-          "body": "我以为你根本没在听。",
-          "time": "17:03",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-05",
-          "title": "",
-          "body": "我只是话少，不是没听。",
-          "time": "17:03",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-06",
-          "title": "",
-          "body": "那你呢？你喜欢喝什么？",
-          "time": "17:04",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-07",
-          "title": "",
-          "body": "这个。韩国也有。",
-          "time": "17:04",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-08",
-          "title": "",
-          "body": "那下次我请你。",
-          "time": "17:05",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-vending-machine-09",
-          "title": "",
-          "body": "说好了。不能反悔。",
-          "time": "17:05",
-          "senderId": "wushiwens",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "kakao-school-festival",
-      "app": "kakao",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "kakao-school-festival-01",
-          "title": "",
-          "body": "你刚刚去哪了？我找了你好久。",
-          "time": "19:42",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-02",
-          "title": "",
-          "body": "人太多了，我怕你被挤到，就先去出口等。",
-          "time": "19:43",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-03",
-          "title": "",
-          "body": "你怎么知道我会往出口走？",
-          "time": "19:43",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-04",
-          "title": "",
-          "body": "不知道。只是觉得你会找得到我。",
-          "time": "19:44",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-05",
-          "title": "",
-          "body": "如果我没找到呢？",
-          "time": "19:45",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-06",
-          "title": "",
-          "body": "那我就继续找你。",
-          "time": "19:45",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-07",
-          "title": "",
-          "body": "……你今天说话怎么这么犯规。",
-          "time": "19:46",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-08",
-          "title": "",
-          "body": "哪一句？",
-          "time": "19:46",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-school-festival-09",
-          "title": "",
-          "body": "不告诉你。",
-          "time": "19:47",
-          "senderId": "owner",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "kakao-night-before-goodbye",
-      "app": "kakao",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "kakao-night-before-goodbye-01",
-          "title": "",
-          "body": "你明天几点的飞机？",
-          "time": "20:50",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-02",
-          "title": "",
-          "body": "上午十点。老师会送我去机场。",
-          "time": "20:51",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-03",
-          "title": "",
-          "body": "这么早……",
-          "time": "20:51",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-04",
-          "title": "",
-          "body": "嗯。怕你明天来不及上课，所以今晚先告诉你。",
-          "time": "20:52",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-05",
-          "title": "",
-          "body": "我又没说我要去。",
-          "time": "20:53",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-06",
-          "title": "",
-          "body": "我知道。是我希望你来。",
-          "time": "20:53",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-07",
-          "title": "",
-          "body": "吴是温。",
-          "time": "20:54",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-08",
-          "title": "",
-          "body": "嗯，我在。",
-          "time": "20:54",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-09",
-          "title": "",
-          "body": "我不想跟你说再见。",
-          "time": "20:55",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-night-before-goodbye-10",
-          "title": "",
-          "body": "那就先不说。我们还可以再聊一会儿。",
-          "time": "20:56",
-          "senderId": "wushiwens",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "wechat-wushiwens-followup",
-      "app": "wechat",
-      "title": "吴是温",
-      "participants": [
-        "owner",
-        "wushiwens"
-      ],
-      "messages": [
-        {
-          "id": "wechat-wushiwens-followup-01",
-          "title": "",
-          "body": "你到宿舍了吗？",
-          "time": "16:18",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushiwens-followup-02",
-          "title": "",
-          "body": "到了。刚刚谢谢你带我认路。",
-          "time": "16:20",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushiwens-followup-03",
-          "title": "",
-          "body": "小事啦，明天你就不会迷路了。",
-          "time": "16:21",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushiwens-followup-04",
-          "title": "",
-          "body": "那以后也可以找你问路吗？",
-          "time": "16:21",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushiwens-followup-05",
-          "title": "",
-          "body": "可以啊。",
-          "time": "16:22",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-wushiwens-followup-06",
-          "title": "",
-          "body": "那我记下了。",
-          "time": "16:22",
-          "senderId": "wushiwens",
-          "kind": "text"
-        }
-      ]
-    },
-    {
-      "id": "wechat-xiaoyu-after-walk",
-      "app": "wechat",
-      "title": "林晓雨",
-      "participants": [
-        "owner",
-        "xiaoyu"
-      ],
-      "messages": [
-        {
-          "id": "wechat-xiaoyu-after-walk-01",
-          "title": "",
-          "body": "你今天不是说只带他逛校园吗？怎么回来一路都在笑。",
-          "time": "17:16",
-          "senderId": "xiaoyu",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-xiaoyu-after-walk-02",
-          "title": "",
-          "body": "有吗？",
-          "time": "17:17",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-xiaoyu-after-walk-03",
-          "title": "",
-          "body": "有。嘴角快压不下去了。",
-          "time": "17:17",
-          "senderId": "xiaoyu",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-xiaoyu-after-walk-04",
-          "title": "",
-          "body": "他只是……还挺好相处的。",
-          "time": "17:18",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-xiaoyu-after-walk-05",
-          "title": "",
-          "body": "嗯嗯，只是好相处。",
-          "time": "17:18",
-          "senderId": "xiaoyu",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-xiaoyu-after-walk-06",
-          "title": "",
-          "body": "不准阴阳怪气！",
-          "time": "17:19",
-          "senderId": "owner",
-          "kind": "text"
-        }
-      ]
     }
   ],
   "content": {
@@ -840,28 +390,6 @@
         "meta": {
           "caption": "不想让这一年只留在手机里"
         }
-      },
-      {
-        "id": "photo-campus-map",
-        "title": "校园路线图",
-        "body": "今天带他走过的路线。照片里不小心拍进了两个人的影子。",
-        "time": "2026-10-28 14:36",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "导游第一天，任务完成"
-        }
-      },
-      {
-        "id": "photo-drinks",
-        "title": "两瓶饮料",
-        "body": "他说要记住我喜欢的口味。后来我才发现，他真的记住了。",
-        "time": "2026-10-28 16:02",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "下次换我请他"
-        }
       }
     ],
     "notes": [
@@ -882,26 +410,10 @@
         "kind": "note"
       },
       {
-        "id": "note-campus-walk",
-        "title": "七天假期计划",
-        "body": "14:00 实验楼门口见吴是温。先带他熟悉教学楼和操场，再去小卖部买饮料。不要迟到。——其实提前半小时就开始看时间了。",
-        "time": "2026-10-27 12:35",
-        "sender": "备忘录",
-        "kind": "note"
-      },
-      {
-        "id": "note-things-to-say",
-        "title": "还没说出口的话",
-        "body": "想告诉他，第一次在操场捡到东西时，我就记住了他的声音。后来一起放学、在贩卖机前聊天、校园祭走散又找到彼此……每一件小事都被我记了很久。",
-        "time": "2026-10-25 23:16",
-        "sender": "备忘录",
-        "kind": "note"
-      },
-      {
-        "id": "note-korean-words",
-        "title": "韩语小抄",
-        "body": "고마워 = 谢谢\\n괜찮아 = 没关系\\n보고 싶어 = 想你\\n最后一句先不要让他看到。",
-        "time": "2026-10-21 21:05",
+        "id": "note-story-guide",
+        "title": "作者填充区｜剧情备忘",
+        "body": "【这里可以替换成你自己的剧情】\\n建议按时间顺序补充：初遇、熟悉、暧昧、离别。可继续添加聊天、照片、语音和日历事件。",
+        "time": "2026-10-25 12:00",
         "sender": "备忘录",
         "kind": "note"
       }
@@ -930,38 +442,14 @@
         "time": "2026-10-27",
         "sender": "日历",
         "kind": "event"
-      },
-      {
-        "id": "calendar-holiday-walk",
-        "title": "和吴是温逛校园",
-        "body": "14:00｜实验楼门口见。路线：教学楼 → 操场 → 小卖部。记得带伞。",
-        "time": "2026-10-28",
-        "sender": "日历",
-        "kind": "event"
-      },
-      {
-        "id": "calendar-photo-print",
-        "title": "洗照片",
-        "body": "把校园祭那天的照片洗出来，背面写上想说的话。",
-        "time": "2026-10-29",
-        "sender": "日历",
-        "kind": "event"
       }
     ],
     "music": [
       {
         "id": "music-shared-song",
-        "title": "他分享给我的歌",
-        "body": "歌曲名暂留给作者替换。聊天记录里，他说这首歌的副歌很像交换生活最后一个月的心情。",
+        "title": "我们听过的歌",
+        "body": "【填写歌曲名】他把这首歌分享给我以后，我在回家的路上循环了很久。",
         "time": "2026-09-14",
-        "sender": "音乐",
-        "kind": "text"
-      },
-      {
-        "id": "music-playlist",
-        "title": "放学路上的循环",
-        "body": "1. 一起走过操场时听的歌\\n2. 自动贩卖机前分享的歌\\n3. 不敢当面说再见时听的歌",
-        "time": "2026-10-25",
         "sender": "音乐",
         "kind": "text"
       }
@@ -972,14 +460,6 @@
         "title": "未接来电",
         "body": "吴是温｜昨天 22:08",
         "time": "2026-10-26 22:08",
-        "sender": "电话",
-        "kind": "call"
-      },
-      {
-        "id": "phone-call-after-walk",
-        "title": "通话记录",
-        "body": "吴是温｜已接来电 02:14｜问我有没有平安到家。",
-        "time": "2026-10-28 18:22",
         "sender": "电话",
         "kind": "call"
       }
@@ -995,30 +475,6 @@
         "meta": {
           "likes": "38",
           "caption": "아직 끝나지 않았으면 좋겠다."
-        }
-      },
-      {
-        "id": "ig-owner-story",
-        "title": "我的限时动态",
-        "body": "校园傍晚的天空，照片角落有一个没拍清楚的人影。",
-        "time": "2026-10-28 18:40",
-        "sender": "我",
-        "kind": "post",
-        "meta": {
-          "likes": "12",
-          "caption": "今天的风很温柔。"
-        }
-      },
-      {
-        "id": "ig-wushiwens-late-post",
-        "title": "吴是温的新动态",
-        "body": "两瓶饮料放在长椅上，背景是操场。没有标记任何人。",
-        "time": "2026-10-28 20:11",
-        "sender": "吴是温",
-        "kind": "post",
-        "meta": {
-          "likes": "24",
-          "caption": "오늘은 좋은 하루였다."
         }
       }
     ]
