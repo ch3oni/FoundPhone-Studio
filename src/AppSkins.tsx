@@ -45,6 +45,7 @@ export type SkinProps = {
   onItem: (i: Item) => void;
   onAdd: () => void;
   onBack: () => void;
+  onSend?: (body: string, thread: string) => void;
   thread: string;
   onThread: (s: string) => void;
 };
@@ -135,20 +136,30 @@ function MessageList({
 function Compose({
   creator,
   onAdd,
+  onSend,
+  thread,
   wa = false,
 }: {
   creator: boolean;
   onAdd: () => void;
+  onSend?: (body: string, thread: string) => void;
+  thread: string;
   wa?: boolean;
 }) {
+  const [draft, setDraft] = useState("");
+  const submit = () => {
+    const body = draft.trim();
+    if (!body) return;
+    onSend?.(body, thread);
+    setDraft("");
+  };
   return (
-    <div className={`skin-compose ${wa ? "wa-compose" : ""}`}>
+    <form className={`skin-compose ${wa ? "wa-compose" : ""}`} onSubmit={(e) => { e.preventDefault(); creator ? onAdd() : submit(); }}>
       {wa ? <Plus size={20} /> : <Mic size={20} />}
-      <NativeComposer creator={creator} onAdd={onAdd} />
-
-      <Smile size={21} />
+      {creator ? <NativeComposer creator onAdd={onAdd} /> : <input aria-label="输入消息" placeholder="发送消息" value={draft} onChange={(e) => setDraft(e.target.value)} onKeyDown={(e) => { if (e.key === "Enter") { e.preventDefault(); submit(); } }} />}
+      {draft.trim() && !creator ? <button type="submit" aria-label="发送消息"><Send size={19} /></button> : <Smile size={21} />}
       {wa ? <Mic size={20} /> : <Plus size={22} />}
-    </div>
+    </form>
   );
 }
 export function WeChatSkin(p: SkinProps) {
@@ -283,7 +294,7 @@ export function WeChatSkin(p: SkinProps) {
             onItem={p.onItem}
             onRead={p.onRead}
           />
-          <Compose creator={p.creator} onAdd={p.onAdd} />
+          <Compose creator={p.creator} onAdd={p.onAdd} onSend={p.onSend} thread={p.thread} />
         </>
       ) : moments ? (
         <div className="wx-moments">
@@ -572,7 +583,7 @@ export function WhatsAppSkin(p: SkinProps) {
             onRead={p.onRead}
             whatsapp
           />
-          <Compose creator={p.creator} onAdd={p.onAdd} wa />
+          <Compose creator={p.creator} onAdd={p.onAdd} onSend={p.onSend} thread={p.thread} wa />
         </>
       ) : (
         <div className="skin-scroll">
