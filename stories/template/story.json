@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 11,
+  "revision": 12,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -166,6 +166,62 @@
           "body": "你有他的联系方式吗",
           "time": "2026.9.30 18:50",
           "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-05",
+          "title": "",
+          "body": "我应该在交换生记录表上见过他的大陆号码",
+          "time": "2026.9.30 18:52",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-06",
+          "title": "",
+          "body": "等我一下我找找",
+          "time": "2026.9.30 18:52",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-07",
+          "title": "",
+          "body": "麻烦你啦",
+          "time": "2026.9.30 18:52",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-08",
+          "title": "",
+          "body": "找到了，这是他的手机号码13677755433",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-09",
+          "title": "",
+          "body": "怎么这么突然，你见到他了？",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-10",
+          "title": "",
+          "body": "是的，他今天帮了我个小忙",
+          "time": "2026.9.30 19:00",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-11",
+          "title": "",
+          "body": "哦^^",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
           "kind": "text"
         }
       ]
