@@ -1,51 +1,30 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "wushiwens-romance",
+  "title": "吴是温｜交换期的一年",
+  "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
+  "revision": 12,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "我",
+    "date": "2026-10-27",
+    "time": "21:11",
+    "battery": 86,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light",
+    "passcode": "0511",
+    "notifications": true
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
+    "camera",
+    "kakao",
+    "wechat",
+    "instagram",
     "notes",
     "calendar",
     "mail",
@@ -55,645 +34,361 @@
     "music",
     "maps",
     "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
+    "safari",
     "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
     "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
     "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "voicememos"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "wushiwens",
+      "name": "吴是温",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "来自韩国的交换生｜同校同学"
+    },
+    {
+      "id": "maeda-riku",
+      "name": "前田陆",
+      "phone": "",
+      "avatar": "",
+      "bio": "学校排球社成员"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
+      "id": "wechat-maeda-recruitment",
       "app": "wechat",
-      "title": "测试会话",
+      "title": "前田陆",
       "participants": [
         "owner",
-        "test-contact"
+        "maeda-riku"
       ],
       "messages": [
         {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
-      "app": "kakao",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "wechat-maeda-recruitment-01",
+          "title": "",
+          "body": "前田同学你好，我负责学校排球社的招新工作，你有没有想法加入排球社呀",
+          "time": "09:25",
+          "senderId": "owner",
+          "kind": "text"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "wechat-maeda-recruitment-02",
+          "title": "",
+          "body": "好呀，我也正想办法联系社团加入呢。",
+          "time": "09:25",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-recruitment-03",
+          "title": "",
+          "body": "没问题，那我拉你进学校的社团群聊，我们在群里给你详细介绍。",
+          "time": "09:25",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-recruitment-04",
+          "title": "",
+          "body": "（发送学校社团群聊邀请二维码）",
+          "time": "09:25",
+          "senderId": "owner",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "wechat-maeda-volleyball-registration",
+      "app": "wechat",
+      "title": "前田陆",
+      "participants": [
+        "owner",
+        "maeda-riku"
+      ],
+      "messages": [
+        {
+          "id": "wechat-maeda-volleyball-registration-01",
+          "title": "",
+          "body": "oo，下个月的排球比赛开始报名了吗，能否帮我申请一下，我也想参加。",
+          "time": "16:33",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-volleyball-registration-02",
+          "title": "",
+          "body": "我帮你联系负责人，凭你的水平，申请一定很快就会批下来的。",
+          "time": "16:33",
+          "senderId": "owner",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-maeda-wushiwens-contact",
+      "app": "wechat",
+      "title": "前田陆",
+      "participants": [
+        "owner",
+        "maeda-riku"
+      ],
+      "messages": [
+        {
+          "id": "wechat-maeda-wushiwens-contact-01",
+          "title": "",
+          "body": "陆，你们交换生中，是还有一名男生吗，今天的讲座上我怎么看到一个陌生的同学坐在我们班的分区",
+          "time": "2026.9.30 18:50",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-02",
+          "title": "",
+          "body": "哦对的，这名交换生叫吴是温，他因为自身原因比我们晚了半个月来交换，今天应该是他来学校的第一天。",
+          "time": "2026.9.30 18:50",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-03",
+          "title": "",
+          "body": "原来是这样",
+          "time": "2026.9.30 18:50",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-04",
+          "title": "",
+          "body": "你有他的联系方式吗",
+          "time": "2026.9.30 18:50",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-05",
+          "title": "",
+          "body": "我应该在交换生记录表上见过他的大陆号码",
+          "time": "2026.9.30 18:52",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-06",
+          "title": "",
+          "body": "等我一下我找找",
+          "time": "2026.9.30 18:52",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-07",
+          "title": "",
+          "body": "麻烦你啦",
+          "time": "2026.9.30 18:52",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-08",
+          "title": "",
+          "body": "找到了，这是他的手机号码13677755433",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-09",
+          "title": "",
+          "body": "怎么这么突然，你见到他了？",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-10",
+          "title": "",
+          "body": "是的，他今天帮了我个小忙",
+          "time": "2026.9.30 19:00",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-11",
+          "title": "",
+          "body": "哦^^",
+          "time": "2026.9.30 19:00",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wushiwens-first-chat",
+      "app": "wechat",
+      "title": "吴是温",
+      "participants": [
+        "owner",
+        "wushiwens"
+      ],
+      "messages": [
+        {
+          "id": "wechat-wushi-first-01",
+          "title": "",
+          "body": "吴同学，谢谢你呀，帮我从座位下捡笔。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-02",
+          "title": "",
+          "body": "没事的呀，很高兴帮助到你。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-03",
+          "title": "",
+          "body": "不好意思，我是韩国交换生，中文可能不大好，请见谅。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-04",
+          "title": "",
+          "body": "没关系的！你的中文水平挺好的。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-05",
+          "title": "",
+          "body": "谢谢。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wushiwens-holiday",
+      "app": "wechat",
+      "title": "吴是温",
+      "participants": [
+        "owner",
+        "wushiwens"
+      ],
+      "messages": [
+        {
+          "id": "wechat-holiday-01",
+          "title": "",
+          "body": "明天就是假期了，你有什么安排吗",
+          "time": "21:10",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-02",
+          "title": "",
+          "body": "这可是难得的七天小长假^^",
+          "time": "21:10",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-03",
+          "title": "",
+          "body": "没有，我刚到学校，对附近不大熟悉",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-04",
+          "title": "",
+          "body": "或许",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-05",
+          "title": "",
+          "body": "oo，你有时间带我在学校里逛逛吗",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-06",
+          "title": "",
+          "body": "当然可以",
+          "time": "21:12",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-07",
+          "title": "",
+          "body": "那明天我去找你",
+          "time": "21:12",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-08",
+          "title": "",
+          "body": "那我们明天下午两点在实验楼门口见吧",
+          "time": "21:13",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-09",
+          "title": "",
+          "body": "OK(๑•̀ω•́๑)✧",
+          "time": "21:13",
+          "senderId": "owner",
+          "kind": "text"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "photos": [
-      {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
-      {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
-      {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
+    "photos": [],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calendar": [
-      {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
-      {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
-      {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "music": [
-      {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "maps": [
-      {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "instagram": [
-      {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-20260930-1842",
+        "title": "",
+        "body": "搞不懂学校，在国庆放假前还要在礼堂开讲座，结束后笔还不小心滚到后排座位下了。但也不是全算坏事，有个从没见过的帅哥帮我捡起来了。拖朋友帮忙，要到了他的微信。",
+        "time": "2026.9.30 18:42",
+        "sender": "owner",
+        "kind": "note"
       },
       {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
+        "id": "note-20260930-2050",
+        "title": "",
+        "body": "加到那个男生的微信了！原来他也是韩国来的交换生，看起来微信也像是刚注册的，没有发过朋友圈，只有一张他的自拍当头像，好想多了解他一点啊。",
+        "time": "2026.9.30 20:50",
+        "sender": "owner",
+        "kind": "note"
       }
     ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
-      }
-    ]
+    "calendar": [],
+    "music": [],
+    "phone": [],
+    "instagram": []
   },
-  "variables": {},
+  "variables": {
+    "storyStage": "separation"
+  },
   "events": [],
   "tests": []
 }

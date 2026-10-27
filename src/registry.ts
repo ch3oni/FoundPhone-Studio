@@ -176,6 +176,7 @@ const definitions: [
     MessageCircle,
     ["好友", "聊天"],
   ],
+  ["voicememos", "语音备忘录", "media", "#d96d72", Radio, ["所有录音", "收藏"]],
   ["appstore", "App Store", "system", "#087cff", ShoppingBag, ["搜索"]],
   ["threads", "Threads", "social", "#4d5150", AtSign, ["动态", "回复"]],
 ];
