@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 7,
+  "revision": 8,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -260,11 +260,79 @@
           "kind": "text"
         }
       ]
+    },
+    {
+      "id": "wechat-wushiwens-first-chat",
+      "app": "wechat",
+      "title": "吴是温",
+      "participants": [
+        "owner",
+        "wushiwens"
+      ],
+      "messages": [
+        {
+          "id": "wechat-wushi-first-01",
+          "title": "",
+          "body": "吴同学，谢谢你呀，帮我从座位下捡笔。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-02",
+          "title": "",
+          "body": "没事的呀，很高兴帮助到你。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-03",
+          "title": "",
+          "body": "不好意思，我是韩国交换生，中文可能不大好，请见谅。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-04",
+          "title": "",
+          "body": "没关系的！你的中文水平挺好的。",
+          "time": "2026.9.30 20:34",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-wushi-first-05",
+          "title": "",
+          "body": "谢谢。",
+          "time": "2026.9.30 20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        }
+      ]
     }
   ],
   "content": {
     "photos": [],
-    "notes": [],
+    "notes": [
+      {
+        "id": "note-20260930-1842",
+        "title": "",
+        "body": "搞不懂学校，在国庆放假前还要在礼堂开讲座，结束后笔还不小心滚到后排座位下了。但也不是全算坏事，有个从没见过的帅哥帮我捡起来了。拖朋友帮忙，要到了他的微信。",
+        "time": "2026.9.30 18:42",
+        "sender": "owner",
+        "kind": "note"
+      },
+      {
+        "id": "note-20260930-2050",
+        "title": "",
+        "body": "加到那个男生的微信了！原来他也是韩国来的交换生，看起来微信也像是刚注册的，没有发过朋友圈，只有一张他的自拍当头像，好想多了解他一点啊。",
+        "time": "2026.9.30 20:50",
+        "sender": "owner",
+        "kind": "note"
+      }
+    ],
     "calendar": [],
     "music": [],
     "phone": [],
