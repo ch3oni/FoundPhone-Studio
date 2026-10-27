@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 6,
+  "revision": 7,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -49,215 +49,131 @@
       "bio": "来自韩国的交换生｜同校同学"
     },
     {
-      "id": "xiaoyu",
-      "name": "林晓雨",
+      "id": "maeda-riku",
+      "name": "前田陆",
       "phone": "",
       "avatar": "",
-      "bio": "我的同班同学，也是最先发现我不对劲的人"
-    },
-    {
-      "id": "owner-friend",
-      "name": "我",
-      "phone": "",
-      "avatar": "",
-      "bio": "手机主人"
+      "bio": "学校排球社成员"
     }
   ],
   "chats": [
     {
-      "id": "kakao-wushiwens",
-      "app": "kakao",
-      "title": "吴是温",
+      "id": "wechat-maeda-recruitment",
+      "app": "wechat",
+      "title": "前田陆",
       "participants": [
         "owner",
-        "wushiwens"
+        "maeda-riku"
       ],
       "messages": [
         {
-          "id": "kakao-first-01",
+          "id": "wechat-maeda-recruitment-01",
           "title": "",
-          "body": "你是不是把这个落在操场了？",
-          "time": "09:18",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-first-02",
-          "title": "",
-          "body": "啊，是我的！谢谢你，刚刚找了半天。",
-          "time": "09:20",
+          "body": "前田同学你好，我负责学校排球社的招新工作，你有没有想法加入排球社呀",
+          "time": "09:25",
           "senderId": "owner",
           "kind": "text"
         },
         {
-          "id": "kakao-first-03",
+          "id": "wechat-maeda-recruitment-02",
           "title": "",
-          "body": "下次自己的东西看好一点。",
-          "time": "09:21",
-          "senderId": "wushiwens",
+          "body": "好呀，我也正想办法联系社团加入呢。",
+          "time": "09:25",
+          "senderId": "maeda-riku",
           "kind": "text"
         },
         {
-          "id": "kakao-first-04",
+          "id": "wechat-maeda-recruitment-03",
           "title": "",
-          "body": "你这是在关心我吗？",
-          "time": "09:22",
+          "body": "没问题，那我拉你进学校的社团群聊，我们在群里给你详细介绍。",
+          "time": "09:25",
           "senderId": "owner",
           "kind": "text"
         },
         {
-          "id": "kakao-first-05",
+          "id": "wechat-maeda-recruitment-04",
           "title": "",
-          "body": "……我只是怕你又要麻烦别人。",
-          "time": "09:23",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-close-01",
-          "title": "",
-          "body": "今天放学要一起走吗？我有东西想给你。",
-          "time": "18:06",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-close-02",
-          "title": "",
-          "body": "什么东西？不能现在告诉我吗？",
-          "time": "18:07",
+          "body": "（发送学校社团群聊邀请二维码）",
+          "time": "09:25",
           "senderId": "owner",
+          "kind": "image"
+        }
+      ]
+    },
+    {
+      "id": "wechat-maeda-volleyball-registration",
+      "app": "wechat",
+      "title": "前田陆",
+      "participants": [
+        "owner",
+        "maeda-riku"
+      ],
+      "messages": [
+        {
+          "id": "wechat-maeda-volleyball-registration-01",
+          "title": "",
+          "body": "oo，下个月的排球比赛开始报名了吗，能否帮我申请一下，我也想参加。",
+          "time": "16:33",
+          "senderId": "maeda-riku",
           "kind": "text"
         },
         {
-          "id": "kakao-close-03",
+          "id": "wechat-maeda-volleyball-registration-02",
           "title": "",
-          "body": "现在说了就没有惊喜了。校门口等你。",
-          "time": "18:08",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-close-04",
-          "title": "",
-          "body": "你最近是不是总在等我放学？",
-          "time": "21:14",
+          "body": "我帮你联系负责人，凭你的水平，申请一定很快就会批下来的。",
+          "time": "16:33",
           "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-close-05",
-          "title": "",
-          "body": "如果我说是呢？",
-          "time": "21:15",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-close-06",
-          "title": "",
-          "body": "那我明天也等你。",
-          "time": "21:17",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-distance-01",
-          "title": "",
-          "body": "交换期只剩下一个月了。今天老师又问我什么时候回韩国。",
-          "time": "20:31",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-distance-02",
-          "title": "",
-          "body": "你之前怎么没告诉我？",
-          "time": "20:32",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-distance-03",
-          "title": "",
-          "body": "我是不知道怎么开口。每次想到要走，就觉得现在说什么都不够。",
-          "time": "20:34",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-distance-04",
-          "title": "",
-          "body": "那我们这一年算什么？",
-          "time": "20:36",
-          "senderId": "owner",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-distance-05",
-          "title": "",
-          "body": "对我来说，不是普通同学。一直都不是。",
-          "time": "20:37",
-          "senderId": "wushiwens",
-          "kind": "text"
-        },
-        {
-          "id": "kakao-goodbye-trigger",
-          "title": "",
-          "body": "明天我就要回韩国了。我不想替你决定未来，所以最后想问你一次：你愿意和我一起认真想想以后吗？",
-          "time": "22:11",
-          "senderId": "wushiwens",
           "kind": "text"
         }
       ]
     },
     {
-      "id": "wechat-xiaoyu",
+      "id": "wechat-maeda-wushiwens-contact",
       "app": "wechat",
-      "title": "林晓雨",
+      "title": "前田陆",
       "participants": [
         "owner",
-        "xiaoyu"
+        "maeda-riku"
       ],
       "messages": [
         {
-          "id": "wechat-friend-01",
+          "id": "wechat-maeda-wushiwens-contact-01",
           "title": "",
-          "body": "你最近是不是和那个韩国交换生走得很近？",
-          "time": "16:42",
-          "senderId": "xiaoyu",
-          "kind": "text"
-        },
-        {
-          "id": "wechat-friend-02",
-          "title": "",
-          "body": "哪有。",
-          "time": "16:43",
+          "body": "（询问学校里一位陌生交换生的情况；原始逐字消息未能从现有记录中找回）",
+          "time": "18:50",
           "senderId": "owner",
           "kind": "text"
         },
         {
-          "id": "wechat-friend-03",
+          "id": "wechat-maeda-wushiwens-contact-02",
           "title": "",
-          "body": "你打这两个字之前停了三分钟。",
-          "time": "16:43",
-          "senderId": "xiaoyu",
+          "body": "他叫吴是温，比我们晚半个月到校。",
+          "time": "18:52",
+          "senderId": "maeda-riku",
           "kind": "text"
         },
         {
-          "id": "wechat-friend-04",
+          "id": "wechat-maeda-wushiwens-contact-03",
           "title": "",
-          "body": "……我只是有点舍不得。",
-          "time": "16:45",
+          "body": "13677755433",
+          "time": "18:52",
+          "senderId": "maeda-riku",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-maeda-wushiwens-contact-04",
+          "title": "",
+          "body": "他今天帮了我个小忙",
+          "time": "19:00",
           "senderId": "owner",
           "kind": "text"
         },
         {
-          "id": "wechat-friend-05",
+          "id": "wechat-maeda-wushiwens-contact-05",
           "title": "",
-          "body": "那就趁还来得及，把想说的话好好说出来。",
-          "time": "16:46",
-          "senderId": "xiaoyu",
+          "body": "哦^^",
+          "time": "19:00",
+          "senderId": "maeda-riku",
           "kind": "text"
         }
       ]
@@ -347,138 +263,12 @@
     }
   ],
   "content": {
-    "photos": [
-      {
-        "id": "photo-campus-first",
-        "title": "操场边的下午",
-        "body": "第一次真正说上话的那天。照片边缘拍进了他的校服袖口。",
-        "time": "2026-03-11 16:28",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "第一次一起放学"
-        }
-      },
-      {
-        "id": "photo-vending-machine",
-        "title": "自动贩卖机",
-        "body": "他说韩国也有一样的饮料，后来每次路过都会顺手给我买一瓶。",
-        "time": "2026-04-02 17:06",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "他说不喜欢甜的，却记得我喜欢哪一种"
-        }
-      },
-      {
-        "id": "photo-school-festival",
-        "title": "校园祭",
-        "body": "人群太多，我们走散了。回头的时候，他正好也在找我。",
-        "time": "2026-06-18 19:40",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "那天没有拍到正脸，却记得很清楚"
-        }
-      },
-      {
-        "id": "photo-last-day",
-        "title": "最后一张合照",
-        "body": "照片还没来得及洗出来，他就要回韩国了。",
-        "time": "2026-10-26 17:22",
-        "sender": "相册",
-        "kind": "image",
-        "meta": {
-          "caption": "不想让这一年只留在手机里"
-        }
-      }
-    ],
-    "notes": [
-      {
-        "id": "note-unsent",
-        "title": "没有发送的消息",
-        "body": "其实我早就知道交换期会结束。只是一直装作还有很多明天。想问他会不会想我，又怕听到答案以后，连现在这样都留不住。",
-        "time": "2026-10-20 23:48",
-        "sender": "备忘录",
-        "kind": "note"
-      },
-      {
-        "id": "note-gift",
-        "title": "要给吴是温的东西",
-        "body": "把那张照片洗出来。背面写上：谢谢你来过我的这一年。",
-        "time": "2026-10-24 18:10",
-        "sender": "备忘录",
-        "kind": "note"
-      },
-      {
-        "id": "note-story-guide",
-        "title": "作者填充区｜剧情备忘",
-        "body": "【这里可以替换成你自己的剧情】\\n建议按时间顺序补充：初遇、熟悉、暧昧、离别。可继续添加聊天、照片、语音和日历事件。",
-        "time": "2026-10-25 12:00",
-        "sender": "备忘录",
-        "kind": "note"
-      }
-    ],
-    "calendar": [
-      {
-        "id": "calendar-first-meet",
-        "title": "第一次一起放学",
-        "body": "操场东门｜等一个总说自己没有在等人的人。",
-        "time": "2026-03-11",
-        "sender": "日历",
-        "kind": "event"
-      },
-      {
-        "id": "calendar-school-festival",
-        "title": "校园祭",
-        "body": "他说结束以后有话要告诉我，最后却只陪我走回了家。",
-        "time": "2026-06-18",
-        "sender": "日历",
-        "kind": "event"
-      },
-      {
-        "id": "calendar-return-korea",
-        "title": "吴是温回韩国",
-        "body": "交换期结束。航班时间和后续内容可由作者自行补充。",
-        "time": "2026-10-27",
-        "sender": "日历",
-        "kind": "event"
-      }
-    ],
-    "music": [
-      {
-        "id": "music-shared-song",
-        "title": "我们听过的歌",
-        "body": "【填写歌曲名】他把这首歌分享给我以后，我在回家的路上循环了很久。",
-        "time": "2026-09-14",
-        "sender": "音乐",
-        "kind": "text"
-      }
-    ],
-    "phone": [
-      {
-        "id": "phone-missed-call",
-        "title": "未接来电",
-        "body": "吴是温｜昨天 22:08",
-        "time": "2026-10-26 22:08",
-        "sender": "电话",
-        "kind": "call"
-      }
-    ],
-    "instagram": [
-      {
-        "id": "ig-wushiwens-post",
-        "title": "吴是温的动态",
-        "body": "交换生活最后一个月。配图是校园傍晚的天空，没有露脸。",
-        "time": "2026-10-22 19:10",
-        "sender": "吴是温",
-        "kind": "post",
-        "meta": {
-          "likes": "38",
-          "caption": "아직 끝나지 않았으면 좋겠다."
-        }
-      }
-    ]
+    "photos": [],
+    "notes": [],
+    "calendar": [],
+    "music": [],
+    "phone": [],
+    "instagram": []
   },
   "variables": {
     "storyStage": "separation"
