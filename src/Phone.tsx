@@ -37,6 +37,7 @@ import {
   useEffect,
   useState,
   useRef,
+  useMemo,
   Suspense,
   type CSSProperties,
 } from "react";
@@ -103,12 +104,52 @@ export function AppIcon({
 type PhoneProps = Omit<Parameters<typeof PhoneRuntime>[0], "deviceLayout">;
 export function Phone(props: PhoneProps) {
   const deviceLayout = useDeviceLayout(props.work, props.creator);
+  const storageKey = `foundphone-owner-name:${props.work.id}`;
+  const [ownerName, setOwnerName] = useState(() => {
+    try { return localStorage.getItem(storageKey) || ""; } catch { return ""; }
+  });
+  const [namePrompt, setNamePrompt] = useState(false);
+  const [nameDraft, setNameDraft] = useState("");
+  const personalizedWork = useMemo(() => {
+    if (!ownerName) return deviceLayout.work;
+    const copy = structuredClone(deviceLayout.work);
+    const replace = (value: unknown): unknown => {
+      if (typeof value === "string") return value.replace(/oo/g, ownerName);
+      if (Array.isArray(value)) return value.map(replace);
+      if (value && typeof value === "object") {
+        return Object.fromEntries(Object.entries(value).map(([key, item]) => [key, replace(item)]));
+      }
+      return value;
+    };
+    return replace(copy) as Work;
+  }, [deviceLayout.work, ownerName]);
+  const saveName = () => {
+    const name = nameDraft.trim();
+    if (!name) return;
+    setOwnerName(name);
+    try { localStorage.setItem(storageKey, name); } catch { /* local save may be unavailable */ }
+    setNamePrompt(false);
+  };
   return (
-    <PhoneRuntime
-      {...props}
-      work={deviceLayout.work}
-      deviceLayout={deviceLayout}
-    />
+    <div style={{ position: "relative", display: "flex", justifyContent: "center" }}>
+      <PhoneRuntime
+        {...props}
+        work={personalizedWork}
+        deviceLayout={{ ...deviceLayout, work: personalizedWork }}
+        ownerName={ownerName}
+        onNeedName={() => { if (!ownerName) setNamePrompt(true); }}
+      />
+      {namePrompt && (
+        <div role="dialog" aria-modal="true" aria-label="设置手机主人名字" style={{ position: "fixed", inset: 0, zIndex: 99999, display: "grid", placeItems: "center", padding: 24, background: "rgba(0,0,0,.55)" }}>
+          <form onSubmit={(event) => { event.preventDefault(); saveName(); }} style={{ width: "min(320px, 100%)", padding: 24, borderRadius: 24, background: "#f8f8f8", color: "#171717", boxShadow: "0 20px 80px rgba(0,0,0,.25)" }}>
+            <h2 style={{ margin: "0 0 8px", fontSize: 21 }}>这部手机属于谁？</h2>
+            <p style={{ margin: "0 0 16px", fontSize: 14, color: "#666" }}>输入你的名字，故事中称呼你的「oo」会替换成这个名字。之后不会再次询问。</p>
+            <input autoFocus value={nameDraft} onChange={(event) => setNameDraft(event.target.value)} maxLength={30} placeholder="输入名字" aria-label="你的名字" style={{ boxSizing: "border-box", width: "100%", padding: "12px 14px", border: "1px solid #ddd", borderRadius: 12, fontSize: 16, marginBottom: 14 }} />
+            <button type="submit" disabled={!nameDraft.trim()} style={{ width: "100%", padding: 12, border: 0, borderRadius: 12, background: "#202020", color: "white", fontSize: 15, opacity: nameDraft.trim() ? 1 : .5 }}>确认并进入手机</button>
+          </form>
+        </div>
+      )}
+    </div>
   );
 }
 function PhoneRuntime({
@@ -121,6 +162,8 @@ function PhoneRuntime({
   onOpen,
   runtime: external,
   onRuntime,
+  ownerName = "",
+  onNeedName,
 }: {
   deviceLayout: ReturnType<typeof useDeviceLayout>;
   work: Work;
@@ -131,6 +174,8 @@ function PhoneRuntime({
   onOpen?: (app: string) => void;
   runtime?: Runtime;
   onRuntime?: (s: Runtime) => void;
+  ownerName?: string;
+  onNeedName?: () => void;
 }) {
   const [app, setApp] = useState("");
   const [homeRequest, setHomeRequest] = useState(0);
@@ -282,6 +327,7 @@ function PhoneRuntime({
       setLocked(false);
       setPinOpen(false);
       event("password", pin);
+      if (!ownerName) onNeedName?.();
     } else {
       setPinError("密码不正确");
       setPinOpen(true);
