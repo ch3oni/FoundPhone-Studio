@@ -3,7 +3,7 @@
   "id": "wushiwens-romance",
   "title": "吴是温｜交换期的一年",
   "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
-  "revision": 3,
+  "revision": 4,
   "phone": {
     "owner": "我",
     "date": "2026-10-27",
@@ -257,6 +257,89 @@
           "body": "那就趁还来得及，把想说的话好好说出来。",
           "time": "16:46",
           "senderId": "xiaoyu",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-wushiwens-holiday",
+      "app": "wechat",
+      "title": "吴是温",
+      "participants": [
+        "owner",
+        "wushiwens"
+      ],
+      "messages": [
+        {
+          "id": "wechat-holiday-01",
+          "title": "",
+          "body": "明天就是假期了，你有什么安排吗",
+          "time": "21:10",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-02",
+          "title": "",
+          "body": "这可是难得的七天小长假^^",
+          "time": "21:10",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-03",
+          "title": "",
+          "body": "没有，我刚到学校，对附近不大熟悉",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-04",
+          "title": "",
+          "body": "或许",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-05",
+          "title": "",
+          "body": "oo，你有时间带我在学校里逛逛吗",
+          "time": "21:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-06",
+          "title": "",
+          "body": "当然可以",
+          "time": "21:12",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-07",
+          "title": "",
+          "body": "那明天我去找你",
+          "time": "21:12",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-08",
+          "title": "",
+          "body": "那我们明天下午两点在实验楼门口见吧",
+          "time": "21:13",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-holiday-09",
+          "title": "",
+          "body": "OK(๑•̀ω•́๑)✧",
+          "time": "21:13",
+          "senderId": "owner",
           "kind": "text"
         }
       ]
