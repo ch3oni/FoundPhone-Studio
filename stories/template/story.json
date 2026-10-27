@@ -1,51 +1,30 @@
 {
   "scriptVersion": 1,
-  "id": "ui-test-phone-v2",
-  "title": "捡手机",
-  "description": "仅用于界面测试，不含剧情",
-  "revision": 2,
+  "id": "wushiwens-romance",
+  "title": "吴是温｜交换期的一年",
+  "description": "一部关于初遇、暧昧、离别与选择的捡手机故事。浏览手机里的聊天、照片与日常记录，在分别时决定你们的未来。",
+  "revision": 3,
   "phone": {
-    "owner": "机主",
-    "date": "2026-10-25",
-    "time": "09:41",
-    "battery": 94,
+    "owner": "我",
+    "date": "2026-10-27",
+    "time": "21:11",
+    "battery": 86,
     "network": "5G",
-    "wallpaper": "apple-wwdc26"
+    "wallpaper": "sage",
+    "theme": "light",
+    "passcode": "0511",
+    "notifications": true
   },
   "installedApps": [
     "appstore",
-    {
-      "id": "wechat",
-      "name": "微信",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
-    {
-      "id": "douyin",
-      "name": "抖音",
-      "installed": true,
-      "visible": true,
-      "dock": false,
-      "folder": "",
-      "icon": ""
-    },
     "phone",
     "messages",
     "contacts",
     "photos",
-    {
-      "id": "camera",
-      "name": "相机",
-      "installed": true,
-      "visible": true,
-      "dock": true,
-      "folder": "",
-      "icon": ""
-    },
-    "safari",
+    "camera",
+    "kakao",
+    "wechat",
+    "instagram",
     "notes",
     "calendar",
     "mail",
@@ -55,645 +34,447 @@
     "music",
     "maps",
     "weather",
-    "wallet",
-    "health",
-    "find",
-    "calculator",
+    "safari",
     "settings",
-    "qq",
-    "weibo",
-    "redbook",
-    "bilibili",
-    "alipay",
-    "taobao",
-    "netease",
-    "delivery",
-    "forum",
-    "whatsapp",
-    "instagram",
-    "tiktok",
-    "twitter",
-    "telegram",
-    "discord",
     "youtube",
-    "line",
-    "snapchat",
-    "facebook",
-    "messenger",
-    "reddit",
-    "spotify",
-    "netflix",
-    "pinterest",
-    "threads",
-    "kakao"
+    "spotify"
   ],
   "contacts": [
     {
-      "id": "test-contact",
-      "name": "测试联系人",
+      "id": "wushiwens",
+      "name": "吴是温",
       "phone": "",
-      "bio": "这是一条测试内容。"
+      "avatar": "",
+      "bio": "来自韩国的交换生｜同校同学"
+    },
+    {
+      "id": "xiaoyu",
+      "name": "林晓雨",
+      "phone": "",
+      "avatar": "",
+      "bio": "我的同班同学，也是最先发现我不对劲的人"
+    },
+    {
+      "id": "owner-friend",
+      "name": "我",
+      "phone": "",
+      "avatar": "",
+      "bio": "手机主人"
     }
   ],
   "chats": [
     {
-      "id": "test-chat-messages",
-      "app": "messages",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messages",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-wechat",
-      "app": "wechat",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-wechat",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-qq",
-      "app": "qq",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-qq",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-whatsapp",
-      "app": "whatsapp",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-whatsapp",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-telegram",
-      "app": "telegram",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-telegram",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-discord",
-      "app": "discord",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-discord",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-line",
-      "app": "line",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-line",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-messenger",
-      "app": "messenger",
-      "title": "测试会话",
-      "participants": [
-        "owner",
-        "test-contact"
-      ],
-      "messages": [
-        {
-          "id": "test-message-messenger",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
-        }
-      ]
-    },
-    {
-      "id": "test-chat-kakao",
+      "id": "kakao-wushiwens",
       "app": "kakao",
-      "title": "测试会话",
+      "title": "吴是温",
       "participants": [
         "owner",
-        "test-contact"
+        "wushiwens"
       ],
       "messages": [
         {
-          "id": "test-message-kakao",
-          "body": "这是一条测试消息。",
-          "senderId": "test-contact"
+          "id": "kakao-first-01",
+          "title": "",
+          "body": "你是不是把这个落在操场了？",
+          "time": "09:18",
+          "senderId": "wushiwens",
+          "kind": "text"
         },
         {
-          "id": "test-reply-kakao",
-          "body": "这是一条测试回复。",
-          "senderId": "owner"
+          "id": "kakao-first-02",
+          "title": "",
+          "body": "啊，是我的！谢谢你，刚刚找了半天。",
+          "time": "09:20",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-first-03",
+          "title": "",
+          "body": "下次自己的东西看好一点。",
+          "time": "09:21",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-first-04",
+          "title": "",
+          "body": "你这是在关心我吗？",
+          "time": "09:22",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-first-05",
+          "title": "",
+          "body": "……我只是怕你又要麻烦别人。",
+          "time": "09:23",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-01",
+          "title": "",
+          "body": "今天放学要一起走吗？我有东西想给你。",
+          "time": "18:06",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-02",
+          "title": "",
+          "body": "什么东西？不能现在告诉我吗？",
+          "time": "18:07",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-03",
+          "title": "",
+          "body": "现在说了就没有惊喜了。校门口等你。",
+          "time": "18:08",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-04",
+          "title": "",
+          "body": "你最近是不是总在等我放学？",
+          "time": "21:14",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-05",
+          "title": "",
+          "body": "如果我说是呢？",
+          "time": "21:15",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-close-06",
+          "title": "",
+          "body": "那我明天也等你。",
+          "time": "21:17",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-distance-01",
+          "title": "",
+          "body": "交换期只剩下一个月了。今天老师又问我什么时候回韩国。",
+          "time": "20:31",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-distance-02",
+          "title": "",
+          "body": "你之前怎么没告诉我？",
+          "time": "20:32",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-distance-03",
+          "title": "",
+          "body": "我是不知道怎么开口。每次想到要走，就觉得现在说什么都不够。",
+          "time": "20:34",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-distance-04",
+          "title": "",
+          "body": "那我们这一年算什么？",
+          "time": "20:36",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-distance-05",
+          "title": "",
+          "body": "对我来说，不是普通同学。一直都不是。",
+          "time": "20:37",
+          "senderId": "wushiwens",
+          "kind": "text"
+        },
+        {
+          "id": "kakao-goodbye-trigger",
+          "title": "",
+          "body": "明天我就要回韩国了。我不想替你决定未来，所以最后想问你一次：你愿意和我一起认真想想以后吗？",
+          "time": "22:11",
+          "senderId": "wushiwens",
+          "kind": "text"
+        }
+      ]
+    },
+    {
+      "id": "wechat-xiaoyu",
+      "app": "wechat",
+      "title": "林晓雨",
+      "participants": [
+        "owner",
+        "xiaoyu"
+      ],
+      "messages": [
+        {
+          "id": "wechat-friend-01",
+          "title": "",
+          "body": "你最近是不是和那个韩国交换生走得很近？",
+          "time": "16:42",
+          "senderId": "xiaoyu",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-friend-02",
+          "title": "",
+          "body": "哪有。",
+          "time": "16:43",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-friend-03",
+          "title": "",
+          "body": "你打这两个字之前停了三分钟。",
+          "time": "16:43",
+          "senderId": "xiaoyu",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-friend-04",
+          "title": "",
+          "body": "……我只是有点舍不得。",
+          "time": "16:45",
+          "senderId": "owner",
+          "kind": "text"
+        },
+        {
+          "id": "wechat-friend-05",
+          "title": "",
+          "body": "那就趁还来得及，把想说的话好好说出来。",
+          "time": "16:46",
+          "senderId": "xiaoyu",
+          "kind": "text"
         }
       ]
     }
   ],
   "content": {
-    "phone": [
-      {
-        "id": "test-item-phone",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "contacts": [
-      {
-        "id": "test-item-contacts",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
     "photos": [
       {
-        "id": "test-item-photos",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "camera": [
+        "id": "photo-campus-first",
+        "title": "操场边的下午",
+        "body": "第一次真正说上话的那天。照片边缘拍进了他的校服袖口。",
+        "time": "2026-03-11 16:28",
+        "sender": "相册",
+        "kind": "image",
+        "meta": {
+          "caption": "第一次一起放学"
+        }
+      },
       {
-        "id": "test-item-camera",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "safari": [
+        "id": "photo-vending-machine",
+        "title": "自动贩卖机",
+        "body": "他说韩国也有一样的饮料，后来每次路过都会顺手给我买一瓶。",
+        "time": "2026-04-02 17:06",
+        "sender": "相册",
+        "kind": "image",
+        "meta": {
+          "caption": "他说不喜欢甜的，却记得我喜欢哪一种"
+        }
+      },
       {
-        "id": "test-item-safari",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "photo-school-festival",
+        "title": "校园祭",
+        "body": "人群太多，我们走散了。回头的时候，他正好也在找我。",
+        "time": "2026-06-18 19:40",
+        "sender": "相册",
+        "kind": "image",
+        "meta": {
+          "caption": "那天没有拍到正脸，却记得很清楚"
+        }
+      },
+      {
+        "id": "photo-last-day",
+        "title": "最后一张合照",
+        "body": "照片还没来得及洗出来，他就要回韩国了。",
+        "time": "2026-10-26 17:22",
+        "sender": "相册",
+        "kind": "image",
+        "meta": {
+          "caption": "不想让这一年只留在手机里"
+        }
       }
     ],
     "notes": [
       {
-        "id": "test-item-notes",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "note-unsent",
+        "title": "没有发送的消息",
+        "body": "其实我早就知道交换期会结束。只是一直装作还有很多明天。想问他会不会想我，又怕听到答案以后，连现在这样都留不住。",
+        "time": "2026-10-20 23:48",
+        "sender": "备忘录",
+        "kind": "note"
+      },
+      {
+        "id": "note-gift",
+        "title": "要给吴是温的东西",
+        "body": "把那张照片洗出来。背面写上：谢谢你来过我的这一年。",
+        "time": "2026-10-24 18:10",
+        "sender": "备忘录",
+        "kind": "note"
+      },
+      {
+        "id": "note-story-guide",
+        "title": "作者填充区｜剧情备忘",
+        "body": "【这里可以替换成你自己的剧情】\\n建议按时间顺序补充：初遇、熟悉、暧昧、离别。可继续添加聊天、照片、语音和日历事件。",
+        "time": "2026-10-25 12:00",
+        "sender": "备忘录",
+        "kind": "note"
       }
     ],
     "calendar": [
       {
-        "id": "test-item-calendar",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "mail": [
+        "id": "calendar-first-meet",
+        "title": "第一次一起放学",
+        "body": "操场东门｜等一个总说自己没有在等人的人。",
+        "time": "2026-03-11",
+        "sender": "日历",
+        "kind": "event"
+      },
       {
-        "id": "test-item-mail",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "clock": [
+        "id": "calendar-school-festival",
+        "title": "校园祭",
+        "body": "他说结束以后有话要告诉我，最后却只陪我走回了家。",
+        "time": "2026-06-18",
+        "sender": "日历",
+        "kind": "event"
+      },
       {
-        "id": "test-item-clock",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reminders": [
-      {
-        "id": "test-item-reminders",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "files": [
-      {
-        "id": "test-item-files",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "calendar-return-korea",
+        "title": "吴是温回韩国",
+        "body": "交换期结束。航班时间和后续内容可由作者自行补充。",
+        "time": "2026-10-27",
+        "sender": "日历",
+        "kind": "event"
       }
     ],
     "music": [
       {
-        "id": "test-item-music",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "music-shared-song",
+        "title": "我们听过的歌",
+        "body": "【填写歌曲名】他把这首歌分享给我以后，我在回家的路上循环了很久。",
+        "time": "2026-09-14",
+        "sender": "音乐",
+        "kind": "text"
       }
     ],
-    "maps": [
+    "phone": [
       {
-        "id": "test-item-maps",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weather": [
-      {
-        "id": "test-item-weather",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "wallet": [
-      {
-        "id": "test-item-wallet",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "health": [
-      {
-        "id": "test-item-health",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "find": [
-      {
-        "id": "test-item-find",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "calculator": [
-      {
-        "id": "test-item-calculator",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "settings": [
-      {
-        "id": "test-item-settings",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "weibo": [
-      {
-        "id": "test-item-weibo",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "redbook": [
-      {
-        "id": "test-item-redbook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "douyin": [
-      {
-        "id": "test-item-douyin",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "bilibili": [
-      {
-        "id": "test-item-bilibili",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "alipay": [
-      {
-        "id": "test-item-alipay",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "taobao": [
-      {
-        "id": "test-item-taobao",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netease": [
-      {
-        "id": "test-item-netease",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "delivery": [
-      {
-        "id": "test-item-delivery",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "forum": [
-      {
-        "id": "test-item-forum",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
+        "id": "phone-missed-call",
+        "title": "未接来电",
+        "body": "吴是温｜昨天 22:08",
+        "time": "2026-10-26 22:08",
+        "sender": "电话",
+        "kind": "call"
       }
     ],
     "instagram": [
       {
-        "id": "test-item-instagram",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "tiktok": [
-      {
-        "id": "test-item-tiktok",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "twitter": [
-      {
-        "id": "test-item-twitter",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "youtube": [
-      {
-        "id": "test-item-youtube",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "snapchat": [
-      {
-        "id": "test-item-snapchat",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "facebook": [
-      {
-        "id": "test-item-facebook",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "reddit": [
-      {
-        "id": "test-item-reddit",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "spotify": [
-      {
-        "id": "test-item-spotify",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "netflix": [
-      {
-        "id": "test-item-netflix",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "pinterest": [
-      {
-        "id": "test-item-pinterest",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      }
-    ],
-    "threads": [
-      {
-        "id": "test-item-threads",
-        "title": "测试内容",
-        "body": "这是一条测试内容。",
-        "sender": "测试用户",
-        "kind": "text",
-        "meta": {}
-      },
-      {
-        "id": "test-threads-message-1",
-        "title": "测试会话1",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人1",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-1",
-        "title": "测试动态1",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户1",
+        "id": "ig-wushiwens-post",
+        "title": "吴是温的动态",
+        "body": "交换生活最后一个月。配图是校园傍晚的天空，没有露脸。",
+        "time": "2026-10-22 19:10",
+        "sender": "吴是温",
+        "kind": "post",
         "meta": {
-          "activityType": "reply"
+          "likes": "38",
+          "caption": "아직 끝나지 않았으면 좋겠다."
         }
-      },
-      {
-        "id": "test-threads-message-2",
-        "title": "测试会话2",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人2",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-2",
-        "title": "测试动态2",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户2",
-        "meta": {
-          "activityType": "reply"
-        }
-      },
-      {
-        "id": "test-threads-message-3",
-        "title": "测试会话3",
-        "body": "这是一条测试消息。",
-        "sender": "测试联系人3",
-        "folder": "私信"
-      },
-      {
-        "id": "test-threads-activity-3",
-        "title": "测试动态3",
-        "body": "这是一条测试回复动态。",
-        "sender": "测试用户3",
-        "meta": {
-          "activityType": "reply"
-        }
-      }
-    ],
-    "appstore": [
-      {
-        "id": "test-appstore",
-        "title": "测试内容",
-        "body": "这是一条测试内容。"
       }
     ]
   },
-  "variables": {},
-  "events": [],
-  "tests": []
+  "variables": {
+    "storyStage": "separation"
+  },
+  "events": [
+    {
+      "id": "story-start",
+      "label": "故事开始",
+      "type": "start",
+      "actions": [
+        {
+          "type": "notification",
+          "key": "",
+          "value": "KakaoTalk：吴是温发来一条新消息"
+        }
+      ]
+    },
+    {
+      "id": "farewell-choice",
+      "label": "回复吴是温",
+      "event": "read",
+      "target": "kakao-goodbye-trigger",
+      "next": [
+        "china-ending",
+        "korea-ending"
+      ]
+    },
+    {
+      "id": "china-ending",
+      "label": "结局一｜再一次，奔向你",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局一｜再一次，奔向你：吴是温决定申请中国的大学。分别没有成为你们故事的句号。几个月后，你在大学校门口看见熟悉的身影，他笑着走向你。这一次，你们都知道自己为什么留下。"
+        }
+      ]
+    },
+    {
+      "id": "korea-ending",
+      "label": "结局二｜舞台尽头的约定",
+      "type": "ending",
+      "actions": [
+        {
+          "type": "ending",
+          "key": "",
+          "value": "结局二｜舞台尽头的约定：吴是温回到了韩国，开始练习生生活。训练很辛苦，你们的联系渐渐被时差和行程切碎，但他始终记得那一年。后来，他终于站上出道舞台，在感谢名单里留下了只有你看得懂的一句话。"
+        }
+      ]
+    }
+  ],
+  "tests": [
+    {
+      "name": "ending-china",
+      "steps": [
+        {
+          "event": "read",
+          "target": "kakao-goodbye-trigger"
+        },
+        {
+          "choose": "china-ending"
+        }
+      ],
+      "ending": "结局一｜再一次，奔向你：吴是温决定申请中国的大学。分别没有成为你们故事的句号。几个月后，你在大学校门口看见熟悉的身影，他笑着走向你。这一次，你们都知道自己为什么留下。",
+      "expectUnlocked": []
+    },
+    {
+      "name": "ending-korea",
+      "steps": [
+        {
+          "event": "read",
+          "target": "kakao-goodbye-trigger"
+        },
+        {
+          "choose": "korea-ending"
+        }
+      ],
+      "ending": "结局二｜舞台尽头的约定：吴是温回到了韩国，开始练习生生活。训练很辛苦，你们的联系渐渐被时差和行程切碎，但他始终记得那一年。后来，他终于站上出道舞台，在感谢名单里留下了只有你看得懂的一句话。",
+      "expectUnlocked": []
+    }
+  ]
 }
